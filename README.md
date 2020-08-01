@@ -1,6 +1,6 @@
 ### cycle_window_focus.py ###
 
-The i3wm commands 'focus right' and 'focus left' change the window focus to the next/previous window, even if that window is in some other workspace.
+The i3wm commands 'focus right' and 'focus left' change the window focus to the next/previous window, even if that window is in some other workspace on another monitor.
 
 This script allows to cycle focus **only** through the windows in the **currently focused workspace**.
 
@@ -30,7 +30,7 @@ $ chmod +x ~/.i3/cycle_window_focus.py
 
 ### Requirements ###
 
-- Python (only tested with version 3.8.5+)
+- Python (only tested with version **3.8.5**+)
 - i3ipc, which can be installed on Arch Linux with:
 
 ```
